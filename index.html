@@ -34,7 +34,7 @@
                 document.getElementById('ip-display').innerText = `Your IP Address: ${ipAddress} (${ipType})`;
             }
 
-            fetch('https://ipv6-flask.onrender.com:5000/save-ip', {  
+            fetch('https://ipv6-flask.onrender.com/save-ip', {  
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json',
