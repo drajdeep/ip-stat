@@ -34,7 +34,7 @@
                 document.getElementById('ip-display').innerText = `Your IP Address: ${ipAddress} (${ipType})`;
             }
 
-            fetch('http://<your-ec2-public-ip>:5000/save-ip', {  <!-- Update with your EC2 public IP -->
+            fetch('http://16.171.175.137:5000/save-ip', {  
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json',
